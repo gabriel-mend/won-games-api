@@ -1,3 +1,5 @@
-# Strapi application
+# Won Games Api
 
-A quick description of your strapi application
+## Api feita com strapi(CMS) para passar dados pro frontend da Won Games
+
+
