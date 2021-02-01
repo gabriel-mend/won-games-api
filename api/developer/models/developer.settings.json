@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "platforms",
+  "collectionName": "developers",
   "info": {
-    "name": "platform"
+    "name": "developer"
   },
   "options": {
     "increments": true,
@@ -21,7 +21,7 @@
       "required": true
     },
     "games": {
-      "via": "platforms",
+      "via": "developers",
       "collection": "game"
     }
   }

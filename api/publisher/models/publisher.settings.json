@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "platforms",
+  "collectionName": "publishers",
   "info": {
-    "name": "platform"
+    "name": "publisher"
   },
   "options": {
     "increments": true,
@@ -21,7 +21,7 @@
       "required": true
     },
     "games": {
-      "via": "platforms",
+      "via": "publisher",
       "collection": "game"
     }
   }
